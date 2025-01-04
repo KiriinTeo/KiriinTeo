@@ -5,7 +5,7 @@
 - :computer: Full-Stack Developer.
 - 🗺️ I’m from Brazil.
 - :books: Studying and Exploring on software development in general. 
-- 🚩 Goals - 2025: Create new projects and work with development.
+- 🚩 Goals - 2025: Create new projects, Learn deeper within Frameworks/Languages and work with development.
 - 🔊 Fluent in English and Portuguese.
 
 ----------------------------------------------------------
