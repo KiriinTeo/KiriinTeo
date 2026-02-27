@@ -47,5 +47,6 @@
 ## Stats on Github 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KiriinTeo&layout=compact&size_weight=0.5&count_weight=0.5)
+<iframe width="600" height="600" src="https://ionicabizau.github.io/github-profile-languages/api.html?KiriinTeo" frameborder="0"></iframe>
 
 <h1 align="center"> Thanks for visiting :) </h1>
