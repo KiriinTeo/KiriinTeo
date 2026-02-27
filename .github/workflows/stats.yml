@@ -1,8 +1,8 @@
 name: Update GitHub Stats
 on:
   schedule:
-    - cron: "0 0 * * *" # Roda todo dia à meia-noite
-  workflow_dispatch: # Permite rodar manualmente para testar
+    - cron: "0 0 * * *" 
+  workflow_dispatch: 
 
 jobs:
   build:
@@ -16,8 +16,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          # Substitua 'seu-usuario' pelo seu login do GitHub
-          options: username=seu-usuario&layout=compact&langs_count=8&theme=radical
+          options: username=KiriinTeo&layout=compact&langs_count=8&theme=radical
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
