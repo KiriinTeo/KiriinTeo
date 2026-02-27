@@ -16,9 +16,9 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=KiriinTeo&layout=compact&langs_count=8&theme=radical
+          options: username=KirrinTeo&layout=compact&langs_count=8&theme=radical&count_private=true&exclude_repo=Projeto_Integrador-FRONT-END
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Commit changes
         run: |
