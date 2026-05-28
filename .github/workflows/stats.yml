@@ -17,7 +17,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=KiriinTeo&show_icons=true&theme=radical&count_private=true
+          options: username=KiriinTeo&show_icons=true&theme=radical&count_private=false
           path: profile/stats.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -25,7 +25,9 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=KiriinTeo&layout=compact&langs_count=8&theme=radical&count_private=true #&exclude_repo=NOME-DO-PROJETO-PARA-SAIR
+          # count_private=false aplicado para manter a privacidade dos repositórios ocultos
+          # exclude_repo e hide ativados para cortar os dados inflados
+          options: username=KiriinTeo&layout=compact&langs_count=8&theme=radical&count_private=true&hide=HTML #&exclude_repo=NOME-DO-PROJETO&hide=NOME-DA-LINGUAGEM
           path: profile/top-langs.svg
           token: ${{ secrets.STATS_TOKEN }}
 
