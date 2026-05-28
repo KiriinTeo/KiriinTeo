@@ -25,7 +25,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=KiriinTeo&layout=compact&langs_count=8&theme=radical&count_private=true&hide=HTML #&exclude_repo=NOME-DO-PROJETO&hide=NOME-DA-LINGUAGEM
+          options: username=KiriinTeo&layout=compact&langs_count=8&theme=radical&count_private=true #&exclude_repo=NOME-DO-PROJETO&hide=NOME-DA-LINGUAGEM
           path: profile/top-langs.svg
           token: ${{ secrets.STATS_TOKEN }}
 
