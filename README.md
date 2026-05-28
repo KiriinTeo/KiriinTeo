@@ -2,11 +2,11 @@
 
 ## I'm Eduardo Teodoro!
 
-- :computer: Full-Stack Developer.
-- 🗺️ I’m from Brazil.
-- :books: Studying and Exploring on software development in general. 
-- 🚩 Goals - 2026: Create new projects, Learn deeper within Frameworks/Languages and work with development.
-- 🔊 Fluent in English and Portuguese.
+-  Full-Stack Developer.
+-  I’m from Brazil.
+-  Studying and Exploring on software development in general. 
+-  Goals - 2026: Create new projects, Learn deeper within Frameworks/Languages and work with development.
+-  Fluent in English and Portuguese.
 
 ----------------------------------------------------------
 
@@ -29,7 +29,7 @@
 <code><img height="20" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"></code>
 <code><img height="20" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"></code>
 
-### 🔧 Frameworks
+### Frameworks
 
 <code><img height="20" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"></code>
 <code><img height="20" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"></code>
@@ -38,7 +38,7 @@
 <code><img height="20" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"></code>
 <code><img height="20" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"></code>
 
-### 🛠️ Other Development Tools
+### Other Development Tools
 
 <code><img height="20" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"></code>
 <code><img height="20" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></code>
