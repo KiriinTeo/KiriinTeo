@@ -10,13 +10,22 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate General Stats Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=KiriinTeo&show_icons=true&theme=radical&count_private=true
+          path: profile/stats.svg
+          token: ${{ secrets.PAT_TOKEN }}
+
       - name: Generate Top Langs Card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=KiriinTeo&layout=compact&langs_count=8&theme=radical&count_private=true #&exclude_repo=Projeto_Integrador-FRONT-END
+          options: username=KiriinTeo&layout=compact&langs_count=8&theme=radical&count_private=true #&exclude_repo=NOME-DO-PROJETO-PARA-SAIR
           path: profile/top-langs.svg
           token: ${{ secrets.PAT_TOKEN }}
 
