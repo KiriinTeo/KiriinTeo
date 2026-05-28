@@ -53,6 +53,7 @@
 
 ## Stats on Github 
 
+![Estatísticas Gerais](./profile/stats.svg)
 ![Minhas Linguagens](./profile/top-langs.svg)
 
 <h1 align="center"> Thanks for visiting :) </h1>
